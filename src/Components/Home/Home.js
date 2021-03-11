@@ -12,7 +12,7 @@ const Home = () => {
         .then(res => res.json())
         .then(data => setClubs(data.teams));
     } ,[])
-    const teams = clubs;
+    
     //console.log(teams);
 
 
